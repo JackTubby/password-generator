@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -17,6 +18,24 @@ body {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: #fff;
-    height: 75rem;
-    width: 65rem;
+    height: 125rem;
+    width: 90rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.title-p {
+    word-wrap: break-word;
+}
+
+p {
+    font-size: 30px;
+}
+
+.lock-icon {
+    margin: 90px 0 40px 0;
 }
