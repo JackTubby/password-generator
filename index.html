@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
-<script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="box">
+        <div class="lock-icon"></div>
+        <h1>Password Generator</h1>
+        <p>
+          Create strong and secure password to keep your account safe online
+        </p>
+        <div>
+          <input type="text" />
+          <button></button>
+          <p></p>
+        </div>
+        <div>
+          <p>Password Count:</p>
+          <input type="text" />
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" id="uppercase" name="uppercase" />
+          <input type="checkbox" id="lowercase" name="lowercase" />
+          <input type="checkbox" id="special" name="special" />
+          <input type="checkbox" id="numbers" name="numbers" />
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="app.js"></script>
 </html>
