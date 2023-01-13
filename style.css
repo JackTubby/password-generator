@@ -1,4 +1,7 @@
 * {
     margin: 0;
     background-image: url("./Images/background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #66b5e2;
 }
