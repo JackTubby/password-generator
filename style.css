@@ -1,7 +1,22 @@
 * {
     margin: 0;
+    padding: 0;
+}
+
+body {
     background-image: url("./Images/background.jpg");
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
     background-color: #66b5e2;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    height: 75rem;
+    width: 65rem;
 }
